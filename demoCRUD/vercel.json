@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "build":[
+        {
+            "src":"CustomerController.java",
+            "use":"@now/node"
+            
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"CustomerController.java"
+        }
+    ]
+}

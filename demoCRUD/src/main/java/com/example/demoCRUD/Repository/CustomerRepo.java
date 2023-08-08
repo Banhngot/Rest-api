@@ -1,0 +1,7 @@
+package com.example.demoCRUD.Repository;
+
+import com.example.demoCRUD.Model.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepo extends JpaRepository<Customer,Long> {
+}
