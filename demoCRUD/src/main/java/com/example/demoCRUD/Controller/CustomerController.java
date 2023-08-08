@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin("*")
+@RequestMapping("/api")
 public class CustomerController {
     @Autowired
     private CustomerRepo customerRepo;
